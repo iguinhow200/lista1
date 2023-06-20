@@ -1,0 +1,6 @@
+b1=float(input('digite a nota do 1° bimestre '))
+b2=float(input('digite a nota do 2° bimestre '))
+b3=float(input('digite a nota do 3° bimestre '))
+b4=float(input('digite a nota do 4° bimestre '))
+media=round((b1+b2+b3+b4)/4 , 2)
+print(f'a media dos bimestres é {media}')
